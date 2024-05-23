@@ -9,9 +9,3 @@
 [mydbserver]
 172.31.0.7
 172.31.0.6
-
-[myRedhatserver]
-172.31.0.87
-
-[mywebserver:vars]
-mywebpack= httpd
