@@ -5,9 +5,9 @@
   tasks: 
   - name: install webserver  o node side 
     dnf: 
-      name: httpd 
+      name: "{{mywebpack}}" 
       state: present
   - name: start webserver 
     service:
-      name: httpd
+      name: "{{mywebpack}}"
       state: started
