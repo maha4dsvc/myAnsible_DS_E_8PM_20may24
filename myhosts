@@ -14,4 +14,4 @@
 172.31.0.87
 
 [mywebserver:vars]
-mywebpack= httpddddddddddddd
+mywebpack= httpd
