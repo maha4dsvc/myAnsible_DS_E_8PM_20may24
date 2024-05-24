@@ -3,11 +3,11 @@
   become: yes
   gather_facts: yes
   tasks: 
-  - name: install webserver  o node side 
+  - name: install webserver  on redhat node side 
     dnf: 
       name: "{{mywebpack}}" 
       state: present
-  - name: start webserver 
+  - name: start webserver on redhat node side
     service:
       name: "{{mywebpack}}"
       state: started
