@@ -1,3 +1,4 @@
 ---
-mywebpack: httpd
+mywebpackonredhat: httpd
+mywebpackondebian: apache2
 myjavapackonredhat: java-1.8.0-amazon-corretto
