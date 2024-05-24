@@ -7,3 +7,9 @@
       name: "{{myjavapackonredhat}}"
       state: present
     when: ansible_os_family=="RedHat"
+
+  - name: install java on debian node side
+    apt:
+      name: 
+      state: present
+    when: ansible_os_family=="Debian"
