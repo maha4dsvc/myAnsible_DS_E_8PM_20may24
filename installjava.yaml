@@ -10,6 +10,6 @@
 
   - name: install java on debian node side
     apt:
-      name: 
+      name: "{{myjavapackondebian}}"
       state: present
     when: ansible_os_family=="Debian"
