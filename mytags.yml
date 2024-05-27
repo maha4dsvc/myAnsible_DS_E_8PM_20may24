@@ -19,5 +19,5 @@
     apt:
       name: wget
       state: present
-    mytags: mywget
+    tags: mywget
 
