@@ -7,3 +7,7 @@
     apt:
      name: apache2
      state: present
+  - name: copy file into node side
+    copy: 
+      src: mytestfile
+      dest: /home/maha/mytestfile
