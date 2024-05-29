@@ -1,7 +1,7 @@
 ---
 - name: download tamcat tar file 
   get_url:
-    url: hhttps://repo1.maven.org/maven2/org/apache/tomcat/tomcat/9.0.55/tomcat-9.0.55.tar.gz
+    url: https://repo1.maven.org/maven2/org/apache/tomcat/tomcat/9.0.55/tomcat-9.0.55.tar.gz
     dest: /home/maha/tomcat-9.0.55.tar.gz
     force_basic_auth: yes
 
