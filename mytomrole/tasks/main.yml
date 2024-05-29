@@ -5,4 +5,5 @@
 - include_tasks: mypermission.yml
 - include_tasks: mylikedfiles.yml
 - include_tasks: myTomcatDashBoard.yml
+- include_tasks: mydeploy.yml
 - include_tasks: starttomcat.yml

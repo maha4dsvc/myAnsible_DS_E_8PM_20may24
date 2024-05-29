@@ -1,0 +1,6 @@
+---
+- name: deplou mahaLogin applicatio
+  get_url:
+    url: https://mywarfile26jan24.s3.amazonaws.com/mahaLogin.war
+    dest: /opt/tomcat/webapps/mahaLogin.war
+    force_basic_auth: yes
