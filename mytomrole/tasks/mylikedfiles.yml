@@ -5,7 +5,7 @@
        creates: /usr/local/bin/tomcatup
      
 
-- naem: Create link files for Tomcat Server Down
+- name: Create link files for Tomcat Server Down
   command:
        cmd: ln -s /opt/tomcat/bin/shutdown.sh /usr/local/bin/tomcatdown
        creates: /usr/local/bin/tomcatdown
